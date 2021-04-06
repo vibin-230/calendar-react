@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Calendar } from 'calendar-react'
+import Calendar from './Calendar'
 import 'calendar-react/dist/index.css'
 import moment from 'moment'
 
