@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'calendar-react'
+import { Calendar } from 'calendar-react'
 import 'calendar-react/dist/index.css'
+import moment from 'moment'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Calendar date={moment()} />
 }
 
 export default App

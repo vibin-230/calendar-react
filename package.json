@@ -1,5 +1,5 @@
 {
-  "name": "calendar-react",
+  "name": "calendar-react-date-selection",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "vibin-230",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
